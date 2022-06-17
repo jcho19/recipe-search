@@ -1,0 +1,84 @@
+html {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,62,121,0.8855917366946778) 35%, rgba(0,212,255,1) 100%);
+
+}
+#recipeLay {
+  text-align: center;
+}
+img{
+  width: 300px;
+}
+
+div#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+input {
+  font-size: 15px;
+  font-family: Georgia, serif;
+  width: 300px;
+}
+#search {
+  display: flex;
+  margin-bottom: 25px;
+  
+  
+  
+}
+
+a {
+  color: white;
+  font-size: 12px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  
+}
+
+#title {
+
+  font-size: 53px;
+  font-family: Georgia, serif;
+  color: white;
+  
+}
+
+
+@media (max-width: 900px){
+  #title {
+    font-size: 43px;
+
+  }
+  input {
+    width: 240px;
+    font-size: 13px;
+   
+  }
+  img {
+    width: 250px;
+  }
+  a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px){
+  #title {
+    font-size:33px;
+
+  }
+  input {
+    width: 175px;
+    font-size: 11px;
+   
+  }
+  
+  img {
+    width: 190px;
+  }
+  a{
+    font-size: 12px;
+  }
+
+}
