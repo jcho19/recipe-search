@@ -3,6 +3,6 @@ Create React App was used to intialize this project.
 Please make sure to run "npm install" to install required dependencies before starting server.
 
 This is how my web app looks:
-![Alt text](homePage.png?raw=true "Home Page")
-![Alt text](chicken.png?raw=true "Chicken recipes")
+![Alt text](/screenshots/homePage.png?raw=true "Home Page")
+![Alt text](/screenshots/chicken.png?raw=true "Chicken recipes")
 
