@@ -1,6 +1,8 @@
 import {AiOutlineSearch} from "react-icons/ai"
 import React from 'react';
 import './App.css'
+
+// displays search bar with button
 const SearchBar = props => {
     const {updateKw, updClick, searchVal} = props;
     return (
