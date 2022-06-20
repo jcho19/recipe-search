@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+// displays all recipes
 const ShowRecipes = props => {
     if(props.recipeList.length === 0){
         return <div></div>
@@ -16,12 +17,12 @@ const ShowRecipes = props => {
     }
     
 }
-
+// recipe will show the recipe image and name (clicking on it takes you to the recipe)
 const Item = (props) => (
     
     <figure>
     <img src={props.pic} alt="Not found"></img>
-    <figcaption><a href={props.link} target="_blank">{props.name}</a></figcaption>
+    <figcaption><a href={props.link} target="_blank" rel="noopener noreferrer">{props.name}</a></figcaption>
     </figure>
 );
 export default ShowRecipes
