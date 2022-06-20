@@ -17,7 +17,7 @@ const ShowRecipes = props => {
     }
     
 }
-// recipe will show the recipe image and name (clicking on it takes you to the recipe)
+// recipe will show the recipe image and name (clicking on the name takes you to the recipe page)
 const Item = (props) => (
     
     <figure>
