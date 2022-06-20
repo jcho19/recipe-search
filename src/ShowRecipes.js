@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 const ShowRecipes = props => {
     if(props.recipeList.length === 0){
         return <div></div>
@@ -20,7 +21,7 @@ const Item = (props) => (
     
     <figure>
     <img src={props.pic} alt="Not found"></img>
-    <figcaption><a href={props.link}>{props.name}</a></figcaption>
+    <figcaption><a href={props.link} target="_blank">{props.name}</a></figcaption>
     </figure>
 );
 export default ShowRecipes
