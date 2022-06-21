@@ -8,8 +8,8 @@ function App() {
   const [clicked, setClicked] = useState(false); // whether search button is clicked
   const [recipes, setRecipes] = useState([]); // list of recipes matched with kw
   const mounted = useRef(false); // whether app component has mounted
-  const appId = '0b73eaee'; // id to include in GET request (Edemam Recipe Search API call)
-  const appKey = '5cead79d1772930a23c30e5d6535346f'; // key to include in GET request (Edemam Recipe Search API call)
+  const appId = '0b73eaee'; // id to include in GET request (Edamam Recipe Search API call)
+  const appKey = '5cead79d1772930a23c30e5d6535346f'; // key to include in GET request (Edamam Recipe Search API call)
 
   // set kw to keyword inputted into the search bar
   const handleKw = e => {
@@ -22,7 +22,7 @@ function App() {
   }
 
 
-  // sends GET request (Edemam Recipe Search API call)
+  // sends GET request (Edamam Recipe Search API call)
   // runs whenever search button is clicked (doesn't run after first render)
   useEffect(()=>{
     
