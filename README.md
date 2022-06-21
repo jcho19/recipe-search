@@ -1,5 +1,5 @@
 This web application finds recipes for countless ingredients/dishes using the Edamam Recipe Search API.
-Create React App was used to intialize this project. 
+Create React App was used to intialize this project. <br />
 Installation instructions:
 1. git clone https://github.com/jcho19/recipe-search.git
 2. cd recipe-search
